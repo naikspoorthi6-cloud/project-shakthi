@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const emergencyBtn = document.getElementById('emergencyBtn');
-    const emergencyBtn = document.getElementById('emergencyBtn');
     
 
     emergencyBtn.addEventListener('click', () => {
