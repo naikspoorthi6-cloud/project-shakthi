@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lat = position.coords.latitude;
             const lon = position.coords.longitude;
             
-            // Create a Google Maps link
+            // Create a Google Maps lin
             const mapLink = `https://www.google.com/maps?q=${lat},${lon}`;
             const message = encodeURIComponent(`My current location: ${mapLink}`);
 
